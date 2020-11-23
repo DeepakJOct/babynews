@@ -37,7 +37,9 @@
     <string name="news_head_10">175-yr-old US science magazine makes 1st prez endorsement, says Trump damaged US</string>
     <string name="news_10">Scientific American has endorsed the first US Presidential candidate in its 175-year history, backing Democratic Party\'s Joe Biden. "The evidence and the science show that Donald Trump has basically damaged the United States and its people because he rejects evidence and science," the magazine said. Biden has a record of following the data and being guided by science, it added.</string>
 
-    <string name="native_advanced_ad_unit_id">ca-app-pub-3940256099942544/2247696110</string>
+    <!--<string name="native_advanced_ad_unit_id">ca-app-pub-3940256099942544/2247696110</string>-->
+    <string name="native_advanced_ad_unit_id">ca-app-pub-8107700136453099/1056429204</string> <!-- Real time native ad id -->
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

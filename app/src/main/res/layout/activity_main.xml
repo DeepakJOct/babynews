@@ -43,8 +43,8 @@
             android:id="@+id/ad_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:elevation="3dp"/>
+            android:layout_margin="@dimen/_5sdp"
+            android:elevation="@dimen/_3sdp"/>
 
     </LinearLayout>
 
@@ -60,8 +60,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             card_view:cardBackgroundColor="#ffffff"
-            card_view:cardCornerRadius="5dp"
-            card_view:cardElevation="10dp"
+            card_view:cardCornerRadius="@dimen/_5sdp"
+            card_view:cardElevation="@dimen/_10sdp"
             android:visibility="visible">
 
             <RelativeLayout
@@ -78,7 +78,7 @@
                     android:id="@+id/iv_image"
                     android:layout_width="match_parent"
                     android:src="@drawable/img1"
-                    android:layout_height="240dp"
+                    android:layout_height="@dimen/_200sdp"
                     android:scaleType="fitXY"/>
 
                 <LinearLayout
@@ -115,7 +115,7 @@
                                 android:layout_centerVertical="true"
                                 android:layout_marginStart="@dimen/_4sdp"
                                 android:textColor="@color/colorPrimaryDark"
-                                android:textSize="16sp"
+                                android:textSize="@dimen/_12sdp"
                                 android:layout_toEndOf="@id/iv_share"
                                 android:fontFamily="@font/hind_madurai_regular"/>
 
@@ -145,7 +145,7 @@
                                 android:layout_centerVertical="true"
                                 android:layout_marginStart="@dimen/_4sdp"
                                 android:textColor="@color/colorPrimaryDark"
-                                android:textSize="16sp"
+                                android:textSize="@dimen/_12sdp"
                                 android:layout_toEndOf="@id/iv_read"
                                 android:fontFamily="@font/hind_madurai_regular"/>
 
@@ -173,7 +173,7 @@
                     android:paddingLeft="@dimen/_8sdp"
                     android:paddingRight="@dimen/_8sdp"
                     android:text="@string/head_news"
-                    android:textSize="18sp"
+                    android:textSize="@dimen/_14sdp"
                     android:textColor="#212121"
                     android:fontFamily="@font/hind_madurai_regular"/>
 
@@ -185,7 +185,7 @@
                     android:paddingTop="@dimen/_5sdp"
                     android:paddingLeft="@dimen/_8sdp"
                     android:paddingRight="@dimen/_8sdp"
-                    android:textSize="15sp"
+                    android:textSize="@dimen/_13sdp"
                     android:layout_below="@id/head_note"
                     android:textColor="#616161"
                     android:lineSpacingExtra="@dimen/_2sdp"
@@ -218,7 +218,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="10 Nov 2020"
-                            android:textSize="12sp"
+                            android:textSize="@dimen/_11sdp"
                             android:layout_centerVertical="true"
                             android:textColor="#9E9E9E"
                             android:fontFamily="@font/tondo_std_lt" />
@@ -248,7 +248,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Source: mirror.co.uk"
-                            android:textSize="12sp"
+                            android:textSize="@dimen/_11sdp"
                             android:textStyle="italic"
                             android:textColor="#9E9E9E"
                             android:layout_centerVertical="true"

@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="5dp">
+            android:padding="@dimen/_3sdp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -23,11 +23,11 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
                     android:id="@+id/ad_icon"
                     android:adjustViewBounds="true"
-                    android:padding="5dp"
+                    android:padding="@dimen/_3sdp"
                     android:scaleType="fitXY"/>
 
                 <LinearLayout
@@ -42,7 +42,7 @@
                         android:textColor="@color/ad_heading"
                         android:text=""
                         android:textStyle="bold"
-                        android:textSize="16sp"/>
+                        android:textSize="@dimen/_14sdp"/>
 
                     <TextView
                         android:id="@+id/ad_advertiser"
@@ -50,7 +50,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/ad_body_text"
                         android:text=""
-                        android:textSize="12sp"/>
+                        android:textSize="@dimen/_12sdp"/>
 
                     <RatingBar
                         android:id="@+id/ad_rating"
@@ -71,7 +71,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textSize="14dp"
+                android:textSize="@dimen/_12sdp"
                 android:textColor="@color/ad_body_text"
                 android:id="@+id/ad_body_text"/>
 
@@ -80,8 +80,8 @@
 
         <com.google.android.gms.ads.formats.MediaView
             android:layout_width="match_parent"
-            android:layout_height="180dp"
-            android:layout_marginTop="5dp"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_marginTop="@dimen/_3sdp"
             android:id="@+id/media_view"
             android:layout_gravity="center_horizontal"/>
 
@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/ad_button_text_color"
             android:background="@drawable/button_style"
-            android:layout_margin="5dp"
+            android:layout_margin="@dimen/_3sdp"
             android:text=""
             android:textAllCaps="false"
             android:id="@+id/ad_call_to_action"/>

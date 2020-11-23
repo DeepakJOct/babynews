@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:id="@+id/accout"
-        android:layout_width="220dp"
+        android:layout_width="@dimen/_180sdp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:layout_marginTop="@dimen/_10sdp"
@@ -37,7 +37,7 @@
 
     <ListView
         android:id="@+id/list"
-        android:layout_width="240dp"
+        android:layout_width="@dimen/_180sdp"
         android:layout_height="match_parent"
         android:layout_below="@+id/accout"
         android:overScrollMode="never" />

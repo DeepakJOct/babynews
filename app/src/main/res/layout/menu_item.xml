@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:text="Side Menu"
         android:padding="@dimen/_8sdp"
-        android:textSize="16sp"
+        android:textSize="@dimen/_14sdp"
         android:textColor="@color/white"/>
 
 </LinearLayout>

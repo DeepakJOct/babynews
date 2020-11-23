@@ -235,48 +235,6 @@ public class MainActivity extends AppCompatActivity {
         return params.toString();
     }
 
-
-    private void addDataToList() {
-        flipdata = new ArrayList<FlipViewModel>();
-        flipdata.clear();
-        /*flipdata.add(new FlipViewModel("video", 0,
-                "https://s3-us-west-2.amazonaws.com/newsany/image___Boys_Attitude_Status___-_Attitude_WhatsApp_Status_Video_2020_-_Attitude_Status_1599809825761.mp4",
-                "Video parsed through MediaDataSource object of Exoplayer, second video"));*/
-        flipdata.add(new FlipViewModel("image", R.drawable.img1, null, "Sample News with image and some text below", getString(R.string.news), null));
-        /*flipdata.add(new FlipViewModel("video", 0,
-                "https://s3-us-west-2.amazonaws.com/newsany/image___Boys_Attitude_Status___-_Attitude_WhatsApp_Status_Video_2020_-_Attitude_Status_1599809825761.mp4",
-                "Video parsed through MediaDataSource object of Exoplayer, second video"));*/
-        flipdata.add(new FlipViewModel("image",
-                R.drawable.news_img_1,
-                null,
-                getString(R.string.news_head_1),
-                getString(R.string.news_1),
-                null));
-        flipdata.add(new FlipViewModel("image", R.drawable.news_img_2, null, getString(R.string.news_head_2), getString(R.string.news_2),
-                null));
-        flipdata.add(new FlipViewModel("image", R.drawable.news_img_3, null, getString(R.string.news_head_3), getString(R.string.news_3),
-                null));
-        flipdata.add(new FlipViewModel("image", R.drawable.news_img_4, null, getString(R.string.news_head_4), getString(R.string.news_4),
-                null));
-        flipdata.add(new FlipViewModel("image", R.drawable.news_img_5, null, getString(R.string.news_head_5), getString(R.string.news_5),
-                null));
-        flipdata.add(new FlipViewModel("image", R.drawable.news_img_6, null, getString(R.string.news_head_6), getString(R.string.news_6),
-                null));
-        flipdata.add(new FlipViewModel("image", R.drawable.news_img_7, null, getString(R.string.news_head_7), getString(R.string.news_7),
-                null));
-        flipdata.add(new FlipViewModel("image", R.drawable.news_img_8, null, getString(R.string.news_head_8), getString(R.string.news_8),
-                null));
-        flipdata.add(new FlipViewModel("image", R.drawable.news_img_9, null, getString(R.string.news_head_9), getString(R.string.news_9),
-                null));
-        flipdata.add(new FlipViewModel("image", R.drawable.news_img_10, null, getString(R.string.news_head_10), getString(R.string.news_10),
-                null));
-
-        /*flipdata.add(new FlipViewModel("video",0,
-                "https://s3-us-west-2.amazonaws.com/newsany/image_Latest_--_Bhoot_Pret_nikat_nahi_Aave_--___Hanuman_Ji_special___WhatsApp_status_1599810110104.mp4",
-                "Video parsed through MediaDataSource object of Exoplayer"));*/
-
-    }
-
     public class NewsViewAdapter extends BaseAdapter {
         private LayoutInflater inflater;
         private ArrayList<FlipViewModel> newsArrayList;

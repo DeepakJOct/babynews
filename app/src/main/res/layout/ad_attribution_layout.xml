@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ad"
-        android:padding="5dp"
+        android:padding="@dimen/_3sdp"
         android:background="@color/ad_attribution_background"
         android:textColor="@color/ad_button_text_color"/>
 
