@@ -1,0 +1,40 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.openaphid.flip.test" >
+4
+5    <uses-sdk
+5-->/home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6056688063418152149.xml:5:5-73
+6        android:minSdkVersion="8"
+6-->/home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6056688063418152149.xml:5:15-40
+7        android:targetSdkVersion="15" />
+7-->/home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6056688063418152149.xml:5:41-70
+8
+9    <instrumentation
+9-->/home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6056688063418152149.xml:11:5-15:73
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6056688063418152149.xml:11:22-75
+11        android:functionalTest="false"
+11-->/home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6056688063418152149.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6056688063418152149.xml:13:22-53
+13        android:label="Tests for com.openaphid.flip.test"
+13-->/home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6056688063418152149.xml:15:22-71
+14        android:targetPackage="com.openaphid.flip.test" />
+14-->/home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6056688063418152149.xml:12:22-69
+15
+16    <application
+16-->/home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6056688063418152149.xml:7:5-9:19
+17        android:debuggable="true"
+17-->/home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6056688063418152149.xml:7:18-43
+18        android:icon="@drawable/ic_launcher"
+18-->[__tested_artifact__::aphidFlipViewLibrary] /home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-45
+19        android:label="@string/app_name"
+19-->[__tested_artifact__::aphidFlipViewLibrary] /home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-41
+20        android:theme="@style/AppTheme" >
+20-->[__tested_artifact__::aphidFlipViewLibrary] /home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-40
+21        <uses-library android:name="android.test.runner" />
+21-->/home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6056688063418152149.xml:8:9-60
+21-->/home/developer/Desktop/Deepak_JAD/Homework/Tech_Update_Prac/FlipViewTest/aphidFlipViewLibrary/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger6056688063418152149.xml:8:23-57
+22    </application>
+23
+24</manifest>

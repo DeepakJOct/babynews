@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/rl_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_menu"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_margin="@dimen/_3sdp"
+        android:layout_gravity="center"
+        android:background="@drawable/background_rounded_circle"
+        android:translationZ="@dimen/_4sdp"
+        android:alpha="0.9"
+        android:elevation="@dimen/_5sdp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:src="@drawable/ic_menu"
+            android:padding="@dimen/_2sdp"
+            android:layout_gravity="center"
+            android:tint="@color/colorAccent"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_advert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ad_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:elevation="3dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            xmlns:card_view="https://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardElevation="10dp"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.exoplayer2.ui.PlayerView
+                    android:id="@+id/video_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_image"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/img1"
+                    android:layout_height="240dp"
+                    android:scaleType="fitXY"/>
+
+                <LinearLayout
+                    android:id="@+id/ll_options"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_below="@id/iv_image">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="1">
+
+                        <RelativeLayout
+                            android:id="@+id/rl_share"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/iv_share"
+                                android:layout_width="@dimen/_14sdp"
+                                android:layout_height="@dimen/_14sdp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/ic_share"
+                                android:text="Comment"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Share"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="16sp"
+                                android:layout_toEndOf="@id/iv_share"
+                                android:fontFamily="@font/hind_madurai_regular"/>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rl_details"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_toEndOf="@id/rl_share"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/iv_read"
+                                android:layout_width="@dimen/_14sdp"
+                                android:layout_height="@dimen/_14sdp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/ic_read"
+                                android:text="Comment"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Details"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="@dimen/_4sdp"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="16sp"
+                                android:layout_toEndOf="@id/iv_read"
+                                android:fontFamily="@font/hind_madurai_regular"/>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/head_note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:paddingLeft="@dimen/_8sdp"
+                    android:paddingRight="@dimen/_8sdp"
+                    android:text="@string/head_news"
+                    android:textSize="18sp"
+                    android:textColor="#212121"
+                    android:fontFamily="@font/hind_madurai_regular"/>
+
+                <TextView
+                    android:id="@+id/note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/news"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingLeft="@dimen/_8sdp"
+                    android:paddingRight="@dimen/_8sdp"
+                    android:textSize="15sp"
+                    android:layout_below="@id/head_note"
+                    android:textColor="#616161"
+                    android:lineSpacingExtra="@dimen/_2sdp"
+                    android:fontFamily="@font/hind_madurai_light"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_below="@id/note">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_published"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_2sdp">
+
+                        <!--<TextView
+                            android:id="@+id/tv_pub_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Published on:"
+                            android:layout_centerVertical="true"
+                            android:textColor="#000000"
+                            android:textSize="15sp"/>-->
+
+                        <TextView
+                            android:id="@+id/tv_pub_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10 Nov 2020"
+                            android:textSize="12sp"
+                            android:layout_centerVertical="true"
+                            android:textColor="#9E9E9E"
+                            android:fontFamily="@font/tondo_std_lt" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_source"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="@dimen/_8sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:layout_below="@id/rl_published">
+
+                        <!--<TextView
+                            android:id="@+id/tv_source_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Source:"
+                            android:layout_centerVertical="true"
+                            android:textColor="#000000"
+                            android:textSize="15sp"/>-->
+
+                        <TextView
+                            android:id="@+id/tv_source"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Source: mirror.co.uk"
+                            android:textSize="12sp"
+                            android:textStyle="italic"
+                            android:textColor="#9E9E9E"
+                            android:layout_centerVertical="true"
+                            android:fontFamily="@font/tondo_std_lt"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

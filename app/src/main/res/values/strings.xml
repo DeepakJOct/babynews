@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BabyNews</string>
+    <string name="news">Scientists at the Queen Mary University of London and the Chinese Academy of Science in Nanjing claim they have discovered the world\'s oldest animal sperm. The sperm was found inside a tiny crustacean trapped in amber around 100 million years ago in Myanmar. They believe the tiny crustaceans had sex just before their entrapment in a blob of tree resin.</string>
+    <string name="head_news">Something to learn about Android this year in 2020.</string>
+    <string name="news_head_1">Over 10,000-page charge sheet filed by Delhi Police in riots case, 15 people named</string>
+    <string name="news_1">The Delhi Police has named fifteen people as accused in a charge sheet filed over the violence that took place in the national capital earlier this year. The charge sheet filed at Karkardooma Court is over 10,000 pages. The 15 people named in the charge sheet have been accused under sections of Unlawful Activities (Prevention) Act, IPC and Arms Act.</string>
+
+    <string name="news_head_2">
+    YouTuber CarryMinati denies reports of being part of Bigg Boss 14
+</string>
+    <string name="news_2">
+    YouTuber CarryMinati, whose real name is Ajey Nagar, took to Twitter on Wednesday to deny the reports of him being a part of Bigg Boss 14. "Not going [to] Bigg Boss&#8230; Don\'t believe in everything you read," he wrote. Earlier, actress Neha Sharma, Sushmita Sen\'s brother Rajeev Sen and actor Adhyayan Summan had denied being part of the Salman Khan-hosted show.
+</string>
+
+    <string name="news_head_3">
+    18-yr-old actress trolled for pic in shorts, other actresses share pics in her support</string>
+    <string name="news_3">After 18-year-old actress Anaswara Rajan, known for working in Malayalam films, was trolled for posting a photo in shorts, other actresses, including Rima Kallingal and Ahaana Krishna supported her. They shared photos with the message, \"Women have legs.\" After being trolled, Anaswara posted a picture captioned, "Don\'t worry about what I\'m doing. Worry about why you\'re worried&#8230;what I\'m doing."</string>
+
+    <string name="news_head_4"> Delhi BJP president Adesh Gupta tests positive for COVID-19</string>
+    <string name="news_4">Delhi BJP president Adesh Gupta on Wednesday tweeted that he has tested positive for COVID-19. "Last week, I took COVID-19 test after having a light fever. Its report was negative. I was tested again as I was feeling unwell. The report has now come as positive," he tweeted. "I have been in quarantine for the past one week," Gupta added.</string>
+
+    <string name="news_head_5">Raina visits house of his uncle who was murdered in Pathankot, pics surface</string>
+    <string name="news_5">Cricketer Suresh Raina today visited the house of his uncle who was murdered after an attack by a gang in Pathankot. Earlier today, Punjab CM Captain Amarinder Singh said the case of the attack on Raina\'s family has been solved after three arrests were made. "Police are doing a good job. I thank Chief Minister for helping us," Raina said.</string>
+
+    <string name="news_head_6">37 lakh families in MP will get rations under Annapurna Yojana: CM</string>
+    <string name="news_6">Madhya Pradesh CM Shivraj Singh Chouhan on Wednesday said that the state government has identified 37 lakh families which will start getting rations under Chief Minister\'s Annapurna Yojana. "Every poor person will get wheat, salt and rice grains at ₹1 a kilo," the CM added. "Right to food security is a basic right," CM Chouhan further said</string>
+
+    <string name="news_head_7">Migrant worker beaten to death in Hyd after allegedly being mistaken for a thief</string>
+    <string name="news_7">A 60-year-old migrant construction worker from Bihar was beaten to death by a watchman at a construction site in Hyderabad after allegedly being mistaken for a thief, police said. The worker woke up around 4 am to relieve himself and the watchman thought he was a thief as he had covered himself with a plastic cover due to cold weather.</string>
+
+    <string name="news_head_8">Kerala allows migrant labourers with COVID-19 to work if they\'re asymptomatic</string>
+    <string name="news_8">The Kerala government has allowed migrant labourers with COVID-19 to work if they are asymptomatic. They can work in places exclusively marked for them by taking all precautions, said the government. As per a directive issued in this regard by the General Administration Department (GAD), such workers shouldn\'t mix with any other workers or officers when they are on duty.</string>
+
+    <string name="news_head_9">Trump says wildfires in California began because \'trees just explode\'</string>
+    <string name="news_9">US President Donald Trump recently said that the wildfires in California began because "trees just explode". "When trees fall down, after a short period of time, about 18 months, they become very dry. They become, really, like a matchstick. And they get up&#8230;there's no more water pouring through, and they become very, very— well, they just explode," Trump added.</string>
+
+    <string name="news_head_10">175-yr-old US science magazine makes 1st prez endorsement, says Trump damaged US</string>
+    <string name="news_10">Scientific American has endorsed the first US Presidential candidate in its 175-year history, backing Democratic Party\'s Joe Biden. "The evidence and the science show that Donald Trump has basically damaged the United States and its people because he rejects evidence and science," the magazine said. Biden has a record of following the data and being guided by science, it added.</string>
+
+    <string name="native_advanced_ad_unit_id">ca-app-pub-3940256099942544/2247696110</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
